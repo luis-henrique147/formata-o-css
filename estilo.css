@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+  /* background-color: aqua; */
+/* background-image: url(https://cdcc.usp.br/wp-content/uploads/sites/512/2021/04/live_lua.jpeg); */
+background-color: #5656f0;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:top;
+background-attachment: fixed;
+animation: MudarCores 5s infinite;
+}
+
+img{
+    height:400px;
+    text-align: center;
+    padding-left: 160px;
+}
+
+main{
+/* border: red 3px solid; */
+width: 70%;
+margin: auto;
+padding: 25px;
+background-color: steelblue;
+border-radius: 6%;
+
+
+}
+
+p{
+    font-family: sans-serif;   
+color: #f3f7f5ef;
+/* font-weight:100; */
+/* font-style:italic; */
+font-stretch: extra-expanded;
+line-height: 15px;
+/* letter-spacing: 2px; */
+/* word-spacing: 15px; */
+text-align:justify;
+/* text-decoration: underline dashed #eb9898; */
+text-transform: lowercase;
+text-indent: 50px;
+/* text-shadow: 5px 5px 10px red;  */
+} 
+
+h1{
+color: rgb(3, 3, 26);
+text-align: center;
+letter-spacing: 20px;
+/* text-shadow: 2px 2px 2px ; */
+margin-left: 0%;
+margin-right: 0%;
+ 
+ 
+ 
+}
+
+footer{
+text-align: center;
+
+}
+
+@keyframes MudarCores{
+
+0%{
+    background-color: #dd972def; 
+}
+25%{
+    background-color: aqua;
+}
+
+50%{
+    background-color: chartreuse;
+}
+75%{
+    background-color: brown;
+}
+
+100%{
+    background-color: #dd6722ef;
+}
+
+}
